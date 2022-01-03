@@ -1,0 +1,33 @@
+/* button {
+  background-color: #0096c7;
+  border: 6px solid #0ff166;
+  border-radius: 10px;
+  width: 150px;
+}
+
+select {
+  display: block;
+  margin-bottom: 20px;
+} */
+
+form {
+  background-color: #f1faee;
+  border-radius: 15px;
+  width: 500px;
+  display: block;
+  align-content: center;
+  margin-left: 400px;
+  margin-right: 400px;
+
+}
+
+#root{
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  padding-top: 75px;
+  text-align: center;
+  height: 20em;
+
+}

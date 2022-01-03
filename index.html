@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script
+      src="https://unpkg.com/@babel/standalone/babel.min.js"
+      crossorigin
+    ></script>
+
+    <title>Bank ATM App</title>
+  </head>
+
+  <body style="background-color: #ade8f4;
+  margin: 30px;
+  align-content: center;
+  text-align: center;
+  font-size:x-large;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 500px;
+  width: 1350px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+
+    <h1 class="form" style="text-align: center;"><em>MIT ATM</em></h1>
+    <p class="">Check Account balance, Add/Withdraw Funds</p>
+    
+    <!-- You will put your React component inside this div. -->
+    <div id="root"></div>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+
+    <!-- Load our React component. -->
+    <script type="text/jsx" src="./atmImprovements.jsx"></script>
+  </body>
+</html>
